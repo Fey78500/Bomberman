@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="bomberman"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Fey-u/Documents/bomberman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bomberman">
+				<Option output="C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/bomberman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Fey-u/Documents/bomberman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/AI/player"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine/bomb"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine/item"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine/player"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 bomberman"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bomberman/fast">
+				<Option output="C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/bomberman.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Fey-u/Documents/bomberman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/AI/player"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine/bomb"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine/item"/>
+					<Add directory="C:/Users/Fey-u/Documents/bomberman/GameEngine/player"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-win32-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 bomberman/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Fey-u/Documents/bomberman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Fey-u/Documents/bomberman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-W/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Fey-u/Documents/bomberman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.gitignore">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.idea/.name">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.idea/bomberman.iml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.idea/codeStyles/Project.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.idea/misc.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.idea/modules.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.idea/vcs.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.idea/workspace.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.vscode/c_cpp_properties.json">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.vscode/launch.json">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.vscode/settings.json">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/.vscode/tasks.json">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/.idea/.name">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/.idea/AI.iml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/.idea/codeStyles/Project.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/.idea/misc.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/.idea/modules.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/.idea/workspace.xml">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/CMakeLists.txt">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/CMakeCache.txt">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/Makefile">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/ai.cbp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/cmake_install.cmake">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/main.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/player/Player.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/AI/player/Player.h">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/BombermanGE.py">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/BombermanPlayer.py">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameDispatcher.py">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/CMakeLists.txt">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/Level.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/Level.h">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/bomb/Bomb.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/bomb/Bomb.h">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/cmake-build-debug/CMakeCache.txt">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/cmake-build-debug/GameEngine.cbp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/cmake-build-debug/Makefile">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/cmake-build-debug/bomberman-engine.exe">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/cmake-build-debug/cmake_install.cmake">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/game-engine.cfg">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/item/Item.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/item/Item.h">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/main.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/player/Player.cpp">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/GameEngine/player/Player.h">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/bomberman.cfg">
+			<Option target="bomberman"/>
+		</Unit>
+		<Unit filename="C:/Users/Fey-u/Documents/bomberman/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
