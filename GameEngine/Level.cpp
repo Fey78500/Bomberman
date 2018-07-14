@@ -310,6 +310,46 @@ void Level::updateBombs() {
     }
 }
 
+void Level::triggerBomb(Bomb* bomb) {
+    bomb->getOwner()->setBombsCount(bomb->getOwner()->getBombsCount() + 1);
+    auto position = std::find(this->bombs.begin(), this->bombs.end(), bomb);
+    if (position != this->bombs.end()) {
+        this->bombs.erase(position);
+    }
+
+    int x = bomb->getX();
+    int y = bomb->getY();
+
+    std::vector<std::tuple<int, int>> directions;
+    directions.emplace_back(std::make_tuple(1, 0));
+    directions.emplace_back(std::make_tuple(-1, 0));
+    directions.emplace_back(std::make_tuple(0, 1));
+    directions.emplace_back(std::make_tuple(0, -1));
+
+    for (auto &direction : directions) {
+        for (int i = 0; i < bomb->getRadius() + 1; i++ ) {
+            int cx = x + i * std::get<0>(direction);
+            int cy = y + i * std::get<1>(direction);
+
+            if (cy < 0 || cy > this->gridHeight - 1 || cx < 0 || cx > this->gridWidth - 1) {
+                break;
+            }
+
+            if (this->grid[cy][cx] == GRID_WALL) {
+                break;
+            }
+
+            if (this->grid[cy][cx] == GRID_BREAKABLE_WALL) {
+                this->grid[cy][cx] = x != cx ? GRID_HORIZONTAL_EXPLOSION : y != cy ? GRID_VERTICAL_EXPLOSION : this->grid[cy][cx];
+                break;
+            }
+
+            this->grid[cy][cx] = x != cx ? GRID_HORIZONTAL_EXPLOSION : y != cy ? GRID_VERTICAL_EXPLOSION : this->grid[cy][cx];
+            this->triggerBombAtPosition(cy, cx);
+        }
+    }
+}
+
 void Level::update() {
     this->clearGrid();
     this->displayBombs();
