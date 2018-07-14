@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_definitions("-static-libgcc -static-libstdc++")
 
-add_executable(bomberman-engine main.cpp Level.cpp Level.h Player.cpp Player.h Bomb.cpp Bomb.h)
+add_executable(GameEngine main.cpp Level.cpp Level.h Player.cpp Player.h Bomb.cpp Bomb.h)

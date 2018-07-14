@@ -86,8 +86,6 @@ void Level::spawnPlayers() {
             std::uniform_int_distribution<int> uniform_distY(0, this->gridHeight - 1);
             int x = uniform_distX(engine);
             int y = uniform_distY(engine);
-            bool ok = false;
-
             if (this->grid[y][x] == GRID_EMPTY) {
                 player->setX(x);
                 player->setY(y);

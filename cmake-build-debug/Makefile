@@ -110,206 +110,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bomberman
+# Target rules for targets named AI
 
 # Build rule for target.
-bomberman: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 bomberman
-.PHONY : bomberman
+AI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 AI
+.PHONY : AI
 
 # fast build rule for target.
-bomberman/fast:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/build
-.PHONY : bomberman/fast
+AI/fast:
+	$(MAKE) -f AI\CMakeFiles\AI.dir\build.make AI/CMakeFiles/AI.dir/build
+.PHONY : AI/fast
 
-AI/main.obj: AI/main.cpp.obj
+#=============================================================================
+# Target rules for targets named GameEngine
 
-.PHONY : AI/main.obj
+# Build rule for target.
+GameEngine: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 GameEngine
+.PHONY : GameEngine
 
-# target to build an object file
-AI/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/AI/main.cpp.obj
-.PHONY : AI/main.cpp.obj
-
-AI/main.i: AI/main.cpp.i
-
-.PHONY : AI/main.i
-
-# target to preprocess a source file
-AI/main.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/AI/main.cpp.i
-.PHONY : AI/main.cpp.i
-
-AI/main.s: AI/main.cpp.s
-
-.PHONY : AI/main.s
-
-# target to generate assembly for a file
-AI/main.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/AI/main.cpp.s
-.PHONY : AI/main.cpp.s
-
-AI/player/Player.obj: AI/player/Player.cpp.obj
-
-.PHONY : AI/player/Player.obj
-
-# target to build an object file
-AI/player/Player.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/AI/player/Player.cpp.obj
-.PHONY : AI/player/Player.cpp.obj
-
-AI/player/Player.i: AI/player/Player.cpp.i
-
-.PHONY : AI/player/Player.i
-
-# target to preprocess a source file
-AI/player/Player.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/AI/player/Player.cpp.i
-.PHONY : AI/player/Player.cpp.i
-
-AI/player/Player.s: AI/player/Player.cpp.s
-
-.PHONY : AI/player/Player.s
-
-# target to generate assembly for a file
-AI/player/Player.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/AI/player/Player.cpp.s
-.PHONY : AI/player/Player.cpp.s
-
-GameEngine/Level.obj: GameEngine/Level.cpp.obj
-
-.PHONY : GameEngine/Level.obj
-
-# target to build an object file
-GameEngine/Level.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/Level.cpp.obj
-.PHONY : GameEngine/Level.cpp.obj
-
-GameEngine/Level.i: GameEngine/Level.cpp.i
-
-.PHONY : GameEngine/Level.i
-
-# target to preprocess a source file
-GameEngine/Level.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/Level.cpp.i
-.PHONY : GameEngine/Level.cpp.i
-
-GameEngine/Level.s: GameEngine/Level.cpp.s
-
-.PHONY : GameEngine/Level.s
-
-# target to generate assembly for a file
-GameEngine/Level.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/Level.cpp.s
-.PHONY : GameEngine/Level.cpp.s
-
-GameEngine/bomb/Bomb.obj: GameEngine/bomb/Bomb.cpp.obj
-
-.PHONY : GameEngine/bomb/Bomb.obj
-
-# target to build an object file
-GameEngine/bomb/Bomb.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/bomb/Bomb.cpp.obj
-.PHONY : GameEngine/bomb/Bomb.cpp.obj
-
-GameEngine/bomb/Bomb.i: GameEngine/bomb/Bomb.cpp.i
-
-.PHONY : GameEngine/bomb/Bomb.i
-
-# target to preprocess a source file
-GameEngine/bomb/Bomb.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/bomb/Bomb.cpp.i
-.PHONY : GameEngine/bomb/Bomb.cpp.i
-
-GameEngine/bomb/Bomb.s: GameEngine/bomb/Bomb.cpp.s
-
-.PHONY : GameEngine/bomb/Bomb.s
-
-# target to generate assembly for a file
-GameEngine/bomb/Bomb.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/bomb/Bomb.cpp.s
-.PHONY : GameEngine/bomb/Bomb.cpp.s
-
-GameEngine/item/Item.obj: GameEngine/item/Item.cpp.obj
-
-.PHONY : GameEngine/item/Item.obj
-
-# target to build an object file
-GameEngine/item/Item.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/item/Item.cpp.obj
-.PHONY : GameEngine/item/Item.cpp.obj
-
-GameEngine/item/Item.i: GameEngine/item/Item.cpp.i
-
-.PHONY : GameEngine/item/Item.i
-
-# target to preprocess a source file
-GameEngine/item/Item.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/item/Item.cpp.i
-.PHONY : GameEngine/item/Item.cpp.i
-
-GameEngine/item/Item.s: GameEngine/item/Item.cpp.s
-
-.PHONY : GameEngine/item/Item.s
-
-# target to generate assembly for a file
-GameEngine/item/Item.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/item/Item.cpp.s
-.PHONY : GameEngine/item/Item.cpp.s
-
-GameEngine/main.obj: GameEngine/main.cpp.obj
-
-.PHONY : GameEngine/main.obj
-
-# target to build an object file
-GameEngine/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/main.cpp.obj
-.PHONY : GameEngine/main.cpp.obj
-
-GameEngine/main.i: GameEngine/main.cpp.i
-
-.PHONY : GameEngine/main.i
-
-# target to preprocess a source file
-GameEngine/main.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/main.cpp.i
-.PHONY : GameEngine/main.cpp.i
-
-GameEngine/main.s: GameEngine/main.cpp.s
-
-.PHONY : GameEngine/main.s
-
-# target to generate assembly for a file
-GameEngine/main.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/main.cpp.s
-.PHONY : GameEngine/main.cpp.s
-
-GameEngine/player/Player.obj: GameEngine/player/Player.cpp.obj
-
-.PHONY : GameEngine/player/Player.obj
-
-# target to build an object file
-GameEngine/player/Player.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/player/Player.cpp.obj
-.PHONY : GameEngine/player/Player.cpp.obj
-
-GameEngine/player/Player.i: GameEngine/player/Player.cpp.i
-
-.PHONY : GameEngine/player/Player.i
-
-# target to preprocess a source file
-GameEngine/player/Player.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/player/Player.cpp.i
-.PHONY : GameEngine/player/Player.cpp.i
-
-GameEngine/player/Player.s: GameEngine/player/Player.cpp.s
-
-.PHONY : GameEngine/player/Player.s
-
-# target to generate assembly for a file
-GameEngine/player/Player.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/GameEngine/player/Player.cpp.s
-.PHONY : GameEngine/player/Player.cpp.s
+# fast build rule for target.
+GameEngine/fast:
+	$(MAKE) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/build
+.PHONY : GameEngine/fast
 
 # Help Target
 help:
@@ -317,30 +141,10 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... bomberman
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... AI/main.obj
-	@echo ... AI/main.i
-	@echo ... AI/main.s
-	@echo ... AI/player/Player.obj
-	@echo ... AI/player/Player.i
-	@echo ... AI/player/Player.s
-	@echo ... GameEngine/Level.obj
-	@echo ... GameEngine/Level.i
-	@echo ... GameEngine/Level.s
-	@echo ... GameEngine/bomb/Bomb.obj
-	@echo ... GameEngine/bomb/Bomb.i
-	@echo ... GameEngine/bomb/Bomb.s
-	@echo ... GameEngine/item/Item.obj
-	@echo ... GameEngine/item/Item.i
-	@echo ... GameEngine/item/Item.s
-	@echo ... GameEngine/main.obj
-	@echo ... GameEngine/main.i
-	@echo ... GameEngine/main.s
-	@echo ... GameEngine/player/Player.obj
-	@echo ... GameEngine/player/Player.i
-	@echo ... GameEngine/player/Player.s
+	@echo ... AI
+	@echo ... GameEngine
 .PHONY : help
 
 

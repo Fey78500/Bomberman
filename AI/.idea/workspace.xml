@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="AI" targetName="bomberman-ai" />
+      <config projectName="AI" targetName="AI" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -27,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -97,12 +97,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bomberman-ai">
+  <component name="RunManager" selected="Application.AI">
+    <configuration name="AI" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AI" TARGET_NAME="AI" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AI" RUN_TARGET_NAME="AI" />
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AI" RUN_TARGET_NAME="bomberman-ai" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="bomberman-ai" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AI" TARGET_NAME="bomberman-ai" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AI" RUN_TARGET_NAME="bomberman-ai" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.bomberman-ai" />
+      <item itemvalue="Application.AI" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -116,16 +116,15 @@
       <option name="presentableId" value="Default" />
       <updated>1531579767443</updated>
       <workItem from="1531579769509" duration="1495000" />
-      <workItem from="1531604848393" duration="348000" />
+      <workItem from="1531604848393" duration="887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="978000" />
+    <option name="totallyTimeSpent" value="1517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -133,7 +132,7 @@
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -181,7 +180,7 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

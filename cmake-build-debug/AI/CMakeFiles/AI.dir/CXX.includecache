@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Fey-u/Documents/bomberman/AI/Player.cpp
+Player.h
+C:/Users/Fey-u/Documents/bomberman/AI/Player.h
+iostream
+-
+vector
+-
+iterator
+-
+sstream
+-
+
+C:/Users/Fey-u/Documents/bomberman/AI/Player.h
+string
+-
+vector
+-
+
+C:/Users/Fey-u/Documents/bomberman/AI/main.cpp
+iostream
+-
+Player.h
+C:/Users/Fey-u/Documents/bomberman/AI/Player.h
+

@@ -1,3 +1,3 @@
-C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/CMakeFiles/bomberman-ai.dir
+C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/CMakeFiles/AI.dir
 C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Fey-u/Documents/bomberman/AI/cmake-build-debug/CMakeFiles/rebuild_cache.dir

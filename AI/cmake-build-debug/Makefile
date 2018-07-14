@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bomberman-ai
+# Target rules for targets named AI
 
 # Build rule for target.
-bomberman-ai: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 bomberman-ai
-.PHONY : bomberman-ai
+AI: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 AI
+.PHONY : AI
 
 # fast build rule for target.
-bomberman-ai/fast:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/build
-.PHONY : bomberman-ai/fast
+AI/fast:
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/build
+.PHONY : AI/fast
 
 Player.obj: Player.cpp.obj
 
@@ -128,7 +128,7 @@ Player.obj: Player.cpp.obj
 
 # target to build an object file
 Player.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/Player.cpp.obj
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/Player.cpp.obj
 .PHONY : Player.cpp.obj
 
 Player.i: Player.cpp.i
@@ -137,7 +137,7 @@ Player.i: Player.cpp.i
 
 # target to preprocess a source file
 Player.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/Player.cpp.i
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/Player.cpp.i
 .PHONY : Player.cpp.i
 
 Player.s: Player.cpp.s
@@ -146,7 +146,7 @@ Player.s: Player.cpp.s
 
 # target to generate assembly for a file
 Player.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/Player.cpp.s
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
 main.obj: main.cpp.obj
@@ -155,7 +155,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -164,7 +164,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -173,7 +173,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -182,7 +182,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... bomberman-ai
+	@echo ... AI
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Player.obj

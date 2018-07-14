@@ -59,39 +59,39 @@ CMAKE_SOURCE_DIR = C:\Users\Fey-u\Documents\bomberman\AI
 CMAKE_BINARY_DIR = C:\Users\Fey-u\Documents\bomberman\AI\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/bomberman-ai.dir
+# Target rules for target CMakeFiles/AI.dir
 
 # All Build rule for target.
-CMakeFiles/bomberman-ai.dir/all:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/depend
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Fey-u\Documents\bomberman\AI\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target bomberman-ai"
-.PHONY : CMakeFiles/bomberman-ai.dir/all
+CMakeFiles/AI.dir/all:
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/depend
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Fey-u\Documents\bomberman\AI\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target AI"
+.PHONY : CMakeFiles/AI.dir/all
 
 # Include target in all.
-all: CMakeFiles/bomberman-ai.dir/all
+all: CMakeFiles/AI.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bomberman-ai.dir/rule: cmake_check_build_system
+CMakeFiles/AI.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\AI\cmake-build-debug\CMakeFiles 3
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/bomberman-ai.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AI.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\AI\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/bomberman-ai.dir/rule
+.PHONY : CMakeFiles/AI.dir/rule
 
 # Convenience name for target.
-bomberman-ai: CMakeFiles/bomberman-ai.dir/rule
+AI: CMakeFiles/AI.dir/rule
 
-.PHONY : bomberman-ai
-
-# clean rule for target.
-CMakeFiles/bomberman-ai.dir/clean:
-	$(MAKE) -f CMakeFiles\bomberman-ai.dir\build.make CMakeFiles/bomberman-ai.dir/clean
-.PHONY : CMakeFiles/bomberman-ai.dir/clean
+.PHONY : AI
 
 # clean rule for target.
-clean: CMakeFiles/bomberman-ai.dir/clean
+CMakeFiles/AI.dir/clean:
+	$(MAKE) -f CMakeFiles\AI.dir\build.make CMakeFiles/AI.dir/clean
+.PHONY : CMakeFiles/AI.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/AI.dir/clean
 
 .PHONY : clean
 

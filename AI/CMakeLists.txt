@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_definitions("-static-libgcc -static-libstdc++")
 
-add_executable(bomberman-ai main.cpp Player.cpp Player.h)
+add_executable(AI main.cpp Player.cpp Player.h)

@@ -59,39 +59,112 @@ CMAKE_SOURCE_DIR = C:\Users\Fey-u\Documents\bomberman
 CMAKE_BINARY_DIR = C:\Users\Fey-u\Documents\bomberman\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/bomberman.dir
+# Directory level rules for directory AI
+
+# Convenience name for "all" pass in the directory.
+AI/all: AI/CMakeFiles/AI.dir/all
+
+.PHONY : AI/all
+
+# Convenience name for "clean" pass in the directory.
+AI/clean: AI/CMakeFiles/AI.dir/clean
+
+.PHONY : AI/clean
+
+# Convenience name for "preinstall" pass in the directory.
+AI/preinstall:
+
+.PHONY : AI/preinstall
+
+#=============================================================================
+# Target rules for target AI/CMakeFiles/AI.dir
 
 # All Build rule for target.
-CMakeFiles/bomberman.dir/all:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/depend
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target bomberman"
-.PHONY : CMakeFiles/bomberman.dir/all
+AI/CMakeFiles/AI.dir/all:
+	$(MAKE) -f AI\CMakeFiles\AI.dir\build.make AI/CMakeFiles/AI.dir/depend
+	$(MAKE) -f AI\CMakeFiles\AI.dir\build.make AI/CMakeFiles/AI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target AI"
+.PHONY : AI/CMakeFiles/AI.dir/all
 
 # Include target in all.
-all: CMakeFiles/bomberman.dir/all
+all: AI/CMakeFiles/AI.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bomberman.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles 8
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/bomberman.dir/all
+AI/CMakeFiles/AI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 AI/CMakeFiles/AI.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/bomberman.dir/rule
+.PHONY : AI/CMakeFiles/AI.dir/rule
 
 # Convenience name for target.
-bomberman: CMakeFiles/bomberman.dir/rule
+AI: AI/CMakeFiles/AI.dir/rule
 
-.PHONY : bomberman
-
-# clean rule for target.
-CMakeFiles/bomberman.dir/clean:
-	$(MAKE) -f CMakeFiles\bomberman.dir\build.make CMakeFiles/bomberman.dir/clean
-.PHONY : CMakeFiles/bomberman.dir/clean
+.PHONY : AI
 
 # clean rule for target.
-clean: CMakeFiles/bomberman.dir/clean
+AI/CMakeFiles/AI.dir/clean:
+	$(MAKE) -f AI\CMakeFiles\AI.dir\build.make AI/CMakeFiles/AI.dir/clean
+.PHONY : AI/CMakeFiles/AI.dir/clean
+
+# clean rule for target.
+clean: AI/CMakeFiles/AI.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory GameEngine
+
+# Convenience name for "all" pass in the directory.
+GameEngine/all: GameEngine/CMakeFiles/GameEngine.dir/all
+
+.PHONY : GameEngine/all
+
+# Convenience name for "clean" pass in the directory.
+GameEngine/clean: GameEngine/CMakeFiles/GameEngine.dir/clean
+
+.PHONY : GameEngine/clean
+
+# Convenience name for "preinstall" pass in the directory.
+GameEngine/preinstall:
+
+.PHONY : GameEngine/preinstall
+
+#=============================================================================
+# Target rules for target GameEngine/CMakeFiles/GameEngine.dir
+
+# All Build rule for target.
+GameEngine/CMakeFiles/GameEngine.dir/all:
+	$(MAKE) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/depend
+	$(MAKE) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles --progress-num=4,5,6,7,8 "Built target GameEngine"
+.PHONY : GameEngine/CMakeFiles/GameEngine.dir/all
+
+# Include target in all.
+all: GameEngine/CMakeFiles/GameEngine.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+GameEngine/CMakeFiles/GameEngine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 GameEngine/CMakeFiles/GameEngine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\cmake-build-debug\CMakeFiles 0
+.PHONY : GameEngine/CMakeFiles/GameEngine.dir/rule
+
+# Convenience name for target.
+GameEngine: GameEngine/CMakeFiles/GameEngine.dir/rule
+
+.PHONY : GameEngine
+
+# clean rule for target.
+GameEngine/CMakeFiles/GameEngine.dir/clean:
+	$(MAKE) -f GameEngine\CMakeFiles\GameEngine.dir\build.make GameEngine/CMakeFiles/GameEngine.dir/clean
+.PHONY : GameEngine/CMakeFiles/GameEngine.dir/clean
+
+# clean rule for target.
+clean: GameEngine/CMakeFiles/GameEngine.dir/clean
 
 .PHONY : clean
 

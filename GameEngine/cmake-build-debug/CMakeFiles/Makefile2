@@ -59,39 +59,39 @@ CMAKE_SOURCE_DIR = C:\Users\Fey-u\Documents\bomberman\GameEngine
 CMAKE_BINARY_DIR = C:\Users\Fey-u\Documents\bomberman\GameEngine\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/bomberman-engine.dir
+# Target rules for target CMakeFiles/GameEngine.dir
 
 # All Build rule for target.
-CMakeFiles/bomberman-engine.dir/all:
-	$(MAKE) -f CMakeFiles\bomberman-engine.dir\build.make CMakeFiles/bomberman-engine.dir/depend
-	$(MAKE) -f CMakeFiles\bomberman-engine.dir\build.make CMakeFiles/bomberman-engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Fey-u\Documents\bomberman\GameEngine\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target bomberman-engine"
-.PHONY : CMakeFiles/bomberman-engine.dir/all
+CMakeFiles/GameEngine.dir/all:
+	$(MAKE) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/depend
+	$(MAKE) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Fey-u\Documents\bomberman\GameEngine\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target GameEngine"
+.PHONY : CMakeFiles/GameEngine.dir/all
 
 # Include target in all.
-all: CMakeFiles/bomberman-engine.dir/all
+all: CMakeFiles/GameEngine.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/bomberman-engine.dir/rule: cmake_check_build_system
+CMakeFiles/GameEngine.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\GameEngine\cmake-build-debug\CMakeFiles 5
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/bomberman-engine.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/GameEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Fey-u\Documents\bomberman\GameEngine\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/bomberman-engine.dir/rule
+.PHONY : CMakeFiles/GameEngine.dir/rule
 
 # Convenience name for target.
-bomberman-engine: CMakeFiles/bomberman-engine.dir/rule
+GameEngine: CMakeFiles/GameEngine.dir/rule
 
-.PHONY : bomberman-engine
-
-# clean rule for target.
-CMakeFiles/bomberman-engine.dir/clean:
-	$(MAKE) -f CMakeFiles\bomberman-engine.dir\build.make CMakeFiles/bomberman-engine.dir/clean
-.PHONY : CMakeFiles/bomberman-engine.dir/clean
+.PHONY : GameEngine
 
 # clean rule for target.
-clean: CMakeFiles/bomberman-engine.dir/clean
+CMakeFiles/GameEngine.dir/clean:
+	$(MAKE) -f CMakeFiles\GameEngine.dir\build.make CMakeFiles/GameEngine.dir/clean
+.PHONY : CMakeFiles/GameEngine.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/GameEngine.dir/clean
 
 .PHONY : clean
 
