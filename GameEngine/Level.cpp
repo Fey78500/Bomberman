@@ -16,19 +16,12 @@ static const char GRID_BREAKABLE_WALL = '%';
 static const char GRID_BOMB = 'o';
 static const char GRID_HORIZONTAL_EXPLOSION = '-';
 static const char GRID_VERTICAL_EXPLOSION = '|';
-static const int MIN_BOMB_RADIUS = 1;
-static const int MIN_BOMB_DELAY = 2;
-static const int MIN_BOMB_COUNT = 1;
-static const int MIN_HEALTH = 1;
-static const int MIN_ACTIONS_COUNT = 1;
 static const std::string ACTION_UP = "U";
 static const std::string ACTION_DOWN = "D";
 static const std::string ACTION_LEFT = "L";
 static const std::string ACTION_RIGHT = "R";
 static const std::string ACTION_BOMB = "B";
-static const std::string ACTION_TRIGGER = "T";
 static const std::string ACTION_NO_ACTION = "NOACTION";
-static const std::vector<char> AVAILABLE_ITEMS = {'r', 'R', 'R', 'R', 'R', 'd', 'D', 'D', 'n', 'N', 'N', 'a', 'A', 'A', 'H', 'H', 'T'};
 
 //Constructeur de level
 Level::Level(int gridWidth, int gridHeight, int bombsCount, int bombsDelay, int bombsRadius, bool randomWalls, bool gridRing, int deadline, int breakableWallsRate, int wallsDensity, int baseHealth) : gridWidth(gridWidth), gridHeight(gridHeight), bombsCount(bombsCount), bombsDelay(bombsDelay), bombsRadius(bombsRadius), randomWalls(randomWalls), gridRing(gridRing), deadline(deadline), breakableWallsRate(breakableWallsRate), wallsDensity(wallsDensity), baseHealth(baseHealth) {
@@ -96,18 +89,9 @@ void Level::spawnPlayers() {
             bool ok = false;
 
             if (this->grid[y][x] == GRID_EMPTY) {
-                for (auto &otherPlayer: players) {
-                    if (otherPlayer->getX() != x && otherPlayer->getY() != y){
-                        player->setX(x);
-                        player->setY(y);
-                        ok = true;
-                        break;
-                    }
-                }
-                if(ok){
-                    break;
-                }
-
+                player->setX(x);
+                player->setY(y);
+                break;
             }
         }
     }
@@ -346,6 +330,7 @@ void Level::triggerBomb(Bomb* bomb) {
 
             this->grid[cy][cx] = x != cx ? GRID_HORIZONTAL_EXPLOSION : y != cy ? GRID_VERTICAL_EXPLOSION : this->grid[cy][cx];
             this->triggerBombAtPosition(cy, cx);
+            this->hitPlayerAtPosition(cy, cx);
         }
     }
 }

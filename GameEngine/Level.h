@@ -25,7 +25,6 @@ private:
     int breakableWallsRate;
     int wallsDensity;
     int baseHealth;
-    int spawnArray;
     std::vector<std::string> grid;
     std::vector<Player*> players;
     std::vector<Bomb*> bombs;
